@@ -1,0 +1,61 @@
+BEGIN= MAIN MENU
+--------------------
+Welcome USER_NAME. Please use commands to navigate the menu.
+Access level : ACCESS_LEVEL
+Type quit or exit at any time to exit the system
+=END
+
+BEGIN= ACCESS DENIED
+Or you can have no access and take a trip to the
+sonic garage like some of our more unfortunate patients.
+Access level too low. Goodbye...
+Sucka.
+=END
+
+BEGIN= DOCTOR MENU
+--------------------
+(A) - View patients
+(B) - Add a patient
+(C) - Send a patient to sonic garage
+=END
+
+BEGIN= SONIC GARAGE CONFIRM
+No one really knows what happens in the sonic garage
+we just know that no one ever returns.
+Are you sure you want to send a patient to the sonic garage?
+(y / n)
+=END   
+
+BEGIN= SELECT PATIENT
+Which patient would you like to send?
+Please enter 1 - PATIENT_NUMBER.
+=END
+
+BEGIN= SENT TO SONIC GARAGE
+I hope PATIENT_NAME deserved to go to the sonic garage.
+=END
+
+BEGIN= PROMPT FOR USER
+Welcome to HOSPITAL_NAME.
+Please enter your username:
+=END
+
+BEGIN= PROMPT FOR PASSWORD
+Please enter your password:
+=END
+
+BEGIN= BAD LOGIN SONIC GARAGE
+You need a to take a trip to the sonic garage.
+=END
+
+BEGIN= PATIENT NAME
+Please enter the patient's name:
+=END
+
+BEGIN= PATIENT AILMENT
+Please enter their ailment:
+=END
+
+BEGIN= PATIENT CREATED
+Patient record created.
+=END
